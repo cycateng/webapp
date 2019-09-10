@@ -17,8 +17,8 @@ func main() {
 	}
 
 	router.GET("/", routes.Home)
-	route.GET("/login", routes.LogIn)
-	route.GET("/signup", routes.SignUp)
+	router.GET("/login", routes.LogIn)
+	router.GET("/signup", routes.SignUp)
 	router.NoRoute(routes.NoRoute)
 
 	router.Run(":80")
