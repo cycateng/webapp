@@ -1,7 +1,7 @@
 package main
 
 import (
-	"webapp/routes"
+	"./routes"
 	"github.com/gin-gonic/gin"
 )
 

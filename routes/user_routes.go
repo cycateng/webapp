@@ -12,7 +12,7 @@ func UserSignUp(ctx *gin.Context) {
 	password := ctx.PostForm("password")
 	passwordConf := ctx.PostForm("passwordconfirmation")
 	println("username: " + username)
-	println("emailaddress: " + emailaddress)
+	println("email: " + emailaddress)
 	println("password: " + password)
 	println("passwordConf: " + passwordConf)
 
