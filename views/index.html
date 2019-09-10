@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang=ja>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="サンプルアプリケーション">
-        <title>WebApp</title>
-        <link rel="stylesheet" href="//localhost:80/assets/style.css">
-    </head>
+{{ template "head" }}
     <body>
-        <h1>Hello World!</h1>
+        <h1>Welcome to WebApp</h1>
+        <ul>
+            <li><a href="//localhost:80/login">login</a>
+            <li><a href="//localhost:80/signup">signup</a>
+        </ul>
     </body>
-</html>
+{{ template "foot" }}
